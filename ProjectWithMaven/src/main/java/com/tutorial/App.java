@@ -8,23 +8,25 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+import com.factory.FactoryCls;
+
 public class App 
 {
     public static void main( String[] args ) throws IOException
     {
     	System.out.println("Project started");
-    	SessionFactory factory=new Configuration().configure().buildSessionFactory();
+    	SessionFactory factory=FactoryCls.getFactory();
     	
     	//Creating student 
     	Student st=new Student();
-    	st.setId(101);
-    	st.setName("Anubhav");
-    	st.setCity("Kanpur");
+    	st.setId(102);
+    	st.setName("Charles");
+    	st.setCity("Jsipur");
     	
     	//creating object of address class
     	Address ad=new Address();
-    	ad.setStreet("Street1");
-    	ad.setCity("Kanpur");
+    	ad.setStreet("Street2");
+    	ad.setCity("Delhi");
     	ad.setOpen(true);
     	ad.setAddedDate(new Date());
     	ad.setX(1234.24);

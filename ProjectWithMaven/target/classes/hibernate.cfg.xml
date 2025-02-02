@@ -10,9 +10,15 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">prateek</property>
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<mapping class="com.tutorial.Student"/>
 		<mapping class="com.tutorial.Address"/>
+		<mapping class="com.map.Question"/>
+		<mapping class="com.map.Answer"/>
+		<mapping class="com.map.QuestionOTM"/>
+		<mapping class="com.map.AnswerOTM"/>
+		<mapping class="com.map.Project"/>
+		<mapping class="com.map.Emp"/>
 	</session-factory>
 </hibernate-configuration>
