@@ -29,14 +29,35 @@ public class EmDemo {
 		certificate2.setDuration("3 months");
 		stu2.setCert(certificate2);
 		
+		Student stu3=new Student();
+		stu3.setId(333);
+		stu3.setName("Rahul");
+		stu3.setCity("Mumbai");
+		Certificate certificate3=new Certificate();
+		certificate3.setCourse("Android");
+		certificate3.setDuration("2.5 months");
+		stu3.setCert(certificate3);
+		
+		Student stu4=new Student();
+		stu4.setId(444);
+		stu4.setName("Kamal");
+		stu4.setCity("Lucknow");
+		Certificate certificate4=new Certificate();
+		certificate4.setCourse("ReactJS");
+		certificate4.setDuration("3 months");
+		stu4.setCert(certificate4);
+		
+		
 		Session s=factory.openSession();
 		Transaction tx = s.beginTransaction();
 		//Objects saving
-		s.persist(stu1);
-		s.persist(stu2);
-		
-		tx.commit();
-		s.close();
+//		s.persist(stu1);
+//		s.persist(stu2);
+//		s.persist(stu3);
+//		s.persist(stu4);
+//		
+//		tx.commit();
+//		s.close();
 		factory.close();
 	}
 
