@@ -2,6 +2,7 @@ package com.map;
 
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -16,7 +17,8 @@ public class QuestionOTM {
 	private int questionId;
 	private String question;
 	
-	@OneToMany(mappedBy = "question")
+//	 make the entity cascade so all of its related entities will updated. 
+	@OneToMany(mappedBy = "question",cascade=CascadeType.ALL)
 	List<AnswerOTM> answers;
 	
 	public QuestionOTM() {
