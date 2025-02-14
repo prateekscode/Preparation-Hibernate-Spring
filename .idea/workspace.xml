@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="197f850c-7d50-486a-a652-d6492d84694a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWithMaven/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWithMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/META-INF/maven/com.tutorial/ProjectWithMaven/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWithMaven/target/classes/META-INF/maven/com.tutorial/ProjectWithMaven/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/META-INF/maven/com.tutorial/ProjectWithMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWithMaven/target/classes/META-INF/maven/com.tutorial/ProjectWithMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/HQL/HQLExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/cascade/CascadingEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/factory/FactoryCls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/firstcache/FirstEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/AnswerOTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/MapDemoMTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/MapDemoOTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/map/QuestionOTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/pagination/HQLPagination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/secondcache/SecondCacheEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/sqlquery/SqlEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/state/StateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/Certificate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/EmDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/FetchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/com/tutorial/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/classes/pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWithMaven/target/test-classes/com/tutorial/AppTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2sneoUIbopfXodTJ0rSQ2WCTv0g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/PRATEEK/Preparation Hibernate Spring/ProjectWithMaven"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="197f850c-7d50-486a-a652-d6492d84694a" name="Changes" comment="" />
+      <created>1739095948099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739095948099</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -11,7 +11,7 @@ public class FactoryCls {
 
 	static {
 		try {
-			factory = new Configuration().configure().buildSessionFactory();
+			factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException("Error while creating sessionFactory object");

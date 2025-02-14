@@ -11,6 +11,7 @@ public class SecondCacheEx {
 	public static void main(String[] args) {
 		SessionFactory factory = FactoryCls.getFactory();
 		Session s1 = factory.openSession();
+
 		//first
 		Student st1 = s1.get(Student.class, 444);
 		System.out.println(st1);
