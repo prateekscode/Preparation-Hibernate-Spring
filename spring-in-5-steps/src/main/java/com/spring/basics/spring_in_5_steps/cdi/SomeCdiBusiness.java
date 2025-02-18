@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Named
 public class SomeCdiBusiness {
-	
+
 	@Inject
 	private SomeCdiDAO cdiDAO;
 
@@ -19,6 +19,15 @@ public class SomeCdiBusiness {
 	public void setCdidao(SomeCdiDAO cdidao) {
 		this.cdiDAO = cdidao;
 	}
-	
-	
+
+	public int findGreatest() {
+		int greatest = Integer.MIN_VALUE;
+		int[] data = cdiDAO.getData();
+		for (int value : data) {
+			if (value > greatest)
+				greatest = value;
+		}
+		return greatest;
+
+	}
 }
