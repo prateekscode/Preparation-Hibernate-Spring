@@ -1,25 +1,33 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<link href="webjars/bootstrap/5.1.3/css/bootstrap.min.css"
-	rel="stylesheet">
-<meta charset="UTF-8">
-<title>Add Todos Page</title>
-</head>
-<body>
-	<div class="conatiner">
-		<h1>Enter Your ToDo Details</h1>
-		<form method="post">
-		Description <input type="text" name="description" required="required">
-		<input type="submit" class="btn btn-success">
-		</form>
-	</div>
+<%@ include file="common/header.jspf"%>
+<%@ include file="common/navigation.jspf"%>
+<div class="container">
+	<h1>Enter Your ToDo Details</h1>
+	<form:form method="post" modelAttribute="todo">
+		<fieldset class="mb-3">
+			<form:label path="description">Description</form:label>
+			<form:input type="text" path="description" required="required" />
+			<form:errors path="description" cssClass="text-warning" />
+		</fieldset>
 
-	<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"
-		type="text/javascript"></script>
-	<script src="webjars/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
-</body>
-</html>
+		<fieldset class="mb-3">
+			<form:label path="targetdate">TargetDate</form:label>
+			<form:input type="text" path="targetdate" required="required" />
+			<form:errors path="targetdate" cssClass="text-warning" />
+		</fieldset>
+
+		<form:input type="hidden" path="id" />
+
+		<form:input type="hidden" path="done" />
+
+		<input type="submit" class="btn btn-success">
+
+	</form:form>
+</div>
+
+<%@ include file="common/footer.jspf"%>
+
+<script type="text/javascript">
+	$('#targetdate').datepicker({
+		format : 'yyyy-mm-dd',
+	});
+</script>
